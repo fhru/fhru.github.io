@@ -2,201 +2,329 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
-
-    <title>Hello, world!</title>
-
-    <!-- my css -->
+    <title>Fahru - Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <!-- fontaw -->
-    <script src="https://kit.fontawesome.com/02f33c1fc7.js" crossorigin="anonymous"></script>
-    <!-- aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <section class="navtop">
         <div class="container">
-            <a class="navbar-brand fw-bolder fs-4" href="https://discord.io/babachi" target="_blank">BABACHI™</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-center">
-                    <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- end navbar -->
-    <!-- jumbotron -->
-    <div class="jumbotron pt-4">
-        <div class="container d-flex flex-column justify-content-center align-items-center h-100">
-            <img src="img/ikan.jpg" alt="" class="rounded-circle shadow" draggable="false" data-tilt
-                data-tilt-scale="1.1">
-            <div class="fs-1 fw-bolder mt-3">Fahru</div>
-            <div class="fs-5">yb#0771</div>
-        </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#fff" fill-opacity="1"
-            d="M0,288L48,266.7C96,245,192,203,288,181.3C384,160,480,160,576,170.7C672,181,768,203,864,224C960,245,1056,267,1152,272C1248,277,1344,267,1392,261.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-    </svg>
-    <!-- end jumbotron -->
-    <!-- about -->
-    <section class="text-white py-3" id="projects">
-        <div class="container text-center">
-            <div class="fs-1 fw-bold mb-5">My Projects</div>
-            <div class="row">
-                <div class="col-lg-4 mb-4 maniak" data-aos="zoom-in" data-aos-duration="800">
-                    <div class="gambar discord position-relative d-flex align-items-end p-4">
-                        <div class="text text-start w-100">
-                            <div class="fs-2 fw-bold">Discord Login</div>
-                            <div class="fs-4 text-white-50 d-flex mt-2">
-                                <div class="fs-6 me-2">Made With:</div>
-                                <i class="fab fa-html5 me-2 text-primary" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="HTML 5"></i>
-                                <i class="fab fa-css3-alt text-primary" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="CSS 3"></i>
-                            </div>
-                            <a href="https://fhru.github.io/discordLogin" class="btn btn-secondary w-100 mt-3">View
-                                Repository</a>
-                        </div>
-                    </div>
+            <div class="row p-3">
+                <div class="col-lg-2 col-12 text-lg-start text-center pt-lg-0 pb-lg-0 pt-2 pb-3">
+                    <img src="/img/logo.png" alt="logo" class="img-fluid ikon">
                 </div>
-                <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
-                    <div class="gambar discord position-relative d-flex align-items-end p-4">
-                        <div class="text text-start w-100">
-                            <div class="fs-2 fw-bold">Bid App</div>
-                            <div class="fs-4 text-white-50 d-flex mt-2">
-                                <div class="fs-6 me-2">Made With:</div>
-                                <i class="fab fa-laravel me-2 text-danger" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="Laravel"></i>
-                            </div>
-                            <a href="https://github.com/fhru/lelang" class="btn btn-secondary w-100 mt-3">View
-                                Repository</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
-                    <div class="gambar discord position-relative d-flex align-items-end p-4">
-                        <div class="text text-start w-100">
-                            <div class="fs-2 fw-bold">Ticketing App</div>
-                            <div class="fs-4 text-white-50 d-flex mt-2">
-                                <div class="fs-6 me-2">Made With:</div>
-                                <i class="fab fa-laravel me-2 text-danger" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="Laravel"></i>
-                            </div>
-                            <a href="https://github.com/fhru/ticketing-app" class="btn btn-secondary w-100 mt-3">View
-                                Repository</a>
-                        </div>
+                <div class="col-lg-4 col-12 ms-lg-auto ms-0 text-center">
+                    <div class="d-flex justify-content-center justify-content-lg-end align-items-center">
+                        <a href="https://instagram.com/fa.hru"
+                            class="m-item mx-1 rounded-pill text-decoration-none">Instagram</a>
+                        <a href="https://github.com/fhru"
+                            class="m-item mx-1 rounded-pill text-decoration-none">Github</a>
+                        <a href="#" class="m-item mx-1 rounded-pill text-decoration-none">Discord</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="body">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-duration="800">
-                    <div class="gambar discord position-relative d-flex align-items-end p-4">
-                        <div class="text text-start w-100">
-                            <div class="fs-2 fw-bold">CRUD CI4</div>
-                            <div class="fs-4 text-white-50 d-flex mt-2">
-                                <div class="fs-6 me-2">Made With:</div>
-                                <i class="fab fa-php text-primary me-2" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="PHP"></i>
-                                <i class="fab fa-free-code-camp text-warning" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="Codeigniter 4"></i>
+                <div class="col-lg-6">
+                    <!--Kolom 1-->
+                    <div class="d-flex align-items-center py-4 py-lg-5 px-lg-0 px-2">
+                        <!-- baris 1 -->
+                        <img src="./img/profil.png" alt="" class="profil-img" draggable="false">
+                        <div class="d-flex flex-column ms-4">
+                            <div class="name">Fahru <i class="bi bi-patch-check-fill"
+                                    style="font-size: 24px;color: #ac634a;"></i>
                             </div>
-                            <a href="https://github.com/fhru/crud-ci4" class="btn btn-secondary w-100 mt-3">View
-                                Repository</a>
+                            <div class="status">Student</div>
+                        </div>
+                    </div>
+                    <div class="row pb-3 px-2 px-lg-0">
+                        <!-- baris 2 -->
+                        <p class="about">
+                            I am a Student from Bekasi, Indonesia and currently still studying in Gunadarma University
+                            since
+                            2022. In addition, I also like Programming and technology.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <!-- baris 3 -->
+                        <div class="col kotak rounded-5 m-3 m-lg-0">
+                            <div class="kotak-header">
+                            </div>
+                            <div class="kotak-body px-4 py-3">
+                                <div class="ms-2">
+                                    <div class="contact">
+                                        <span class="status">:</span>contact
+                                    </div>
+                                    <p class="third mt-1">feel free to contact me
+                                    </p>
+                                </div>
+                                <div class="row gap-3 p-3">
+                                    <!-- menu kontak -->
+                                    <a href="http://wa.me/+6287880994727"
+                                        class="col-3 socmed py-3 rounded-pill text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"
+                                            height="36" fill="none" stroke="#ffffff" stroke-width="1"
+                                            stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free 1.00
+                                            by @atisalab License -
+                                            https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons
+                                            --&gt;<path
+                                                d="M22,4V14a2,2,0,0,1-2,2H14L8,21V16H4a2,2,0,0,1-2-2V4A2,2,0,0,1,4,2H20A2,2,0,0,1,22,4Z"
+                                                fill="#ac634a" opacity="0.5" stroke-width="0"></path>
+                                            <path
+                                                d="M22,4V14a2,2,0,0,1-2,2H14L8,21V16H4a2,2,0,0,1-2-2V4A2,2,0,0,1,4,2H20A2,2,0,0,1,22,4Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                    <a href="mailto:fhrurhmn@gmail.com"
+                                        class="col-3 socmed py-3 rounded-pill text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"
+                                            height="36" fill="none" stroke="#ffffff" stroke-width="1"
+                                            stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free 1.00
+                                            by @atisalab License -
+                                            https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons
+                                            --&gt;<path d="M22,7,12,14,2,7V18a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2Z"
+                                                fill="#ac634a" opacity="0.5" stroke-width="0"></path>
+                                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                            <polyline points="2 7 12 14 22 7" stroke-linecap="round"></polyline>
+                                        </svg>
+                                    </a>
+                                    <a href="https://t.me/fa_hru" class="col-3 socmed py-3 rounded-pill text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"
+                                            height="36" fill="none" stroke="#ffffff" stroke-width="1"
+                                            stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free 1.00
+                                            by @atisalab License -
+                                            https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons
+                                            --&gt;<polygon points="3 3 20 12 3 21 6 12 3 3" fill="#ac634a"
+                                                opacity="0.5"></polygon>
+                                            <polygon points="3 3 20 12 3 21 6 12 3 3"></polygon>
+                                            <line x1="10" y1="12" x2="6" y2="12"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
-                    <div class="gambar discord position-relative d-flex align-items-end p-4">
-                        <div class="text text-start w-100">
-                            <div class="fs-2 fw-bold">Login System</div>
-                            <div class="fs-4 text-white-50 d-flex mt-2">
-                                <div class="fs-6 me-2">Made With:</div>
-                                <i class="fab fa-php text-primary me-2" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="PHP"></i>
-                                <i class="fab fa-free-code-camp text-warning" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="Codeigniter 4"></i>
+                <div class="col-lg-6 py-5 px-lg-5 px-3">
+                    <!--Kolom 2-->
+                    <div class="row mx-1 mx-lg-0">
+                        <!-- interest -->
+                        <div class="contact">
+                            <span class="status">:</span>interest
+                        </div>
+                        <!-- interest menu -->
+                        <div class="container">
+                            <div class="row g-3 mt-3" id="interest">
+                                <div class="col-lg-4 col-12">
+                                    <div class="interest-btn active">
+                                        <div class="third">Graphic Design</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="interest-btn">
+                                        <div class="third">Programming</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="interest-btn">
+                                        <div class="third">Gaming</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="interest-btn">
+                                        <div class="third">Technology</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="interest-btn">
+                                        <div class="third">Nature</div>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="https://github.com/fhru/login-ci4" class="btn btn-secondary w-100 mt-3">View
-                                Repository</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
-                    <div class="gambar discord position-relative d-flex align-items-end p-4">
-                        <div class="text text-start w-100">
-                            <div class="fs-2 fw-bold">Music Bot</div>
-                            <div class="fs-4 text-white-50 d-flex mt-2">
-                                <div class="fs-6 me-2">Made With:</div>
-                                <i class="fab fa-js me-2 text-warning" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="Javascript"></i>
+                    <!-- project -->
+                    <div class="row">
+                        <div class="container pt-5">
+                            <div class="project p-4 rounded-5">
+                                <div class="contact">
+                                    <span class="status">:</span>project
+                                </div>
+                                <!-- projek1 -->
+                                <div class="row py-3 mt-3">
+                                    <div class="col-4 col-lg-2">
+                                        <div class="proj-icon rounded-pill">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34"
+                                                height="34" fill="none" stroke="#ffffff" stroke-width="1"
+                                                stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free
+                                                1.00 by @atisalab License -
+                                                https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                                                Atomicons --&gt;<circle cx="12" cy="12" r="10" fill="#ac634a"
+                                                    opacity="0.5"></circle>
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <ellipse cx="12" cy="12" rx="4" ry="10"></ellipse>
+                                                <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 col-lg-6">
+                                        <div class="d-flex flex-column h-100 justify-content-center ps-0 ps-lg-2">
+                                            <div class="p-name third">Berangkat.com</div>
+                                            <div class="small forth">PHP, Laravel</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                                        <a href="https://github.com/fhru/ticketing-app"
+                                            class="project-btn small forth rounded-4">
+                                            View Repository
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- projek2 -->
+                                <div class="row py-3 mt-3">
+                                    <div class="col-4 col-lg-2">
+                                        <div class="proj-icon rounded-pill">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34"
+                                                height="34" fill="none" stroke="#ffffff" stroke-width="1"
+                                                stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free
+                                                1.00 by @atisalab License -
+                                                https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                                                Atomicons --&gt;<circle cx="12" cy="12" r="10" fill="#ac634a"
+                                                    opacity="0.5"></circle>
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <ellipse cx="12" cy="12" rx="4" ry="10"></ellipse>
+                                                <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 col-lg-6">
+                                        <div class="d-flex flex-column h-100 justify-content-center ps-0 ps-lg-2">
+                                            <div class="p-name third">Lelang Online</div>
+                                            <div class="small forth">PHP, Laravel</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                                        <a href="https://github.com/fhru/lelang"
+                                            class="project-btn small forth rounded-4">
+                                            View Repository
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- projek3 -->
+                                <div class="row py-3 mt-3">
+                                    <div class="col-4 col-lg-2">
+                                        <div class="proj-icon rounded-pill">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34"
+                                                height="34" fill="none" stroke="#ffffff" stroke-width="1"
+                                                stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free
+                                                1.00 by @atisalab License -
+                                                https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                                                Atomicons --&gt;<circle cx="12" cy="12" r="10" fill="#ac634a"
+                                                    opacity="0.5"></circle>
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <ellipse cx="12" cy="12" rx="4" ry="10"></ellipse>
+                                                <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 col-lg-6">
+                                        <div class="d-flex flex-column h-100 justify-content-center ps-0 ps-lg-2">
+                                            <div class="p-name third">Fake Discord Login</div>
+                                            <div class="small forth">HTML, CSS</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                                        <a href="https://fhru.github.io/discordLogin/"
+                                            class="project-btn small forth rounded-4">
+                                            View Repository
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- projek4 -->
+                                <div class="row py-3 mt-3">
+                                    <div class="col-4 col-lg-2">
+                                        <div class="proj-icon rounded-pill">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34"
+                                                height="34" fill="none" stroke="#ffffff" stroke-width="1"
+                                                stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free
+                                                1.00 by @atisalab License -
+                                                https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                                                Atomicons --&gt;<circle cx="12" cy="12" r="10" fill="#ac634a"
+                                                    opacity="0.5"></circle>
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <ellipse cx="12" cy="12" rx="4" ry="10"></ellipse>
+                                                <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 col-lg-6">
+                                        <div class="d-flex flex-column h-100 justify-content-center ps-0 ps-lg-2">
+                                            <div class="p-name third">Babachi.my.id</div>
+                                            <div class="small forth">HTML, CSS, JS</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                                        <a href="https://fahrurahman.my.id" class="project-btn small forth rounded-4">
+                                            View Repository
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- projek5 -->
+                                <div class="row py-3 mt-3">
+                                    <div class="col-4 col-lg-2">
+                                        <div class="proj-icon rounded-pill">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34"
+                                                height="34" fill="none" stroke="#ffffff" stroke-width="1"
+                                                stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons Free
+                                                1.00 by @atisalab License -
+                                                https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                                                Atomicons --&gt;<circle cx="12" cy="12" r="10" fill="#ac634a"
+                                                    opacity="0.5"></circle>
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <ellipse cx="12" cy="12" rx="4" ry="10"></ellipse>
+                                                <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 col-lg-6">
+                                        <div class="d-flex flex-column h-100 justify-content-center ps-0 ps-lg-2">
+                                            <div class="p-name third">Login Codeigniter</div>
+                                            <div class="small forth">PHP, Codeigniter</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                                        <a href="https://github.com/fhru/login-ci4"
+                                            class="project-btn small forth rounded-4">
+                                            View Repository
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#" class="btn btn-secondary w-100 mt-3">View Repository</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#fff" fill-opacity="1"
-            d="M0,96L48,85.3C96,75,192,53,288,80C384,107,480,181,576,202.7C672,224,768,192,864,165.3C960,139,1056,117,1152,117.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-    </svg>
-    <!-- end about -->
-    <!-- aboutme -->
-    <section class="about bg-white">
-        <div class="container p-4">
-            <h1 class="fw-bold text-center">Coming Soon...</h1>
-        </div>
-    </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-    <script src="js/vanilla-tilt.min.js"></script>
-    <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        });
-
-        AOS.init();
-    </script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

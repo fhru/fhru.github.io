@@ -1,53 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #111;
+    background-color: #16100d;
 }
 
 * {
-    font-family: 'Outfit', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', arial, sans-serif;
 }
 
-.jumbotron {
-    height: 350px;
-    background-color: #fff;
+.ikon {
+    max-width: 40px;
 }
 
-.jumbotron .container img {
-    width: 200px;
+.navtop {
+    border-bottom: 1px solid #3c302c;
 }
-/* .card::before{
-    content: '';
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: yellowgreen;
-    background: linear-gradient(to top,black,rgba(1,1,1,0));
-} */
-.gambar{
-    height: 24rem;
-    border-radius: .5rem;
+
+.m-item {
+    font-size: 14px;
+    color: #4d4644;
+    transition: .3s;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+}
+
+.m-item:hover {
+    color: #a69c97;
+    background-color: #40322f;
+    border: 1px solid #635049;
+}
+
+.profil-img {
+    max-width: 120px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 32px;
+    color: #FAEFEA;
+    font-weight: 800;
+}
+
+.status {
+    color: #ac634a;
+}
+
+.about {
+    font-size: 19px;
+    color: #cfb2a4;
+}
+
+.kotak {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3c302c;
     overflow: hidden;
+    padding: 0;
 }
-.gambar::before{
-    content: '';
+
+.kotak-header {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to top,rgba(1,1,1,.9),rgba(1,1,1,0));
+    background-color: #211a18;
+    color: #FAEFEA;
+    height: 70px;
 }
-.discord{
-    background-image: url('../img/tangan.jpg');
-    background-position: center;
-    background-size: cover;
+
+.contact {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FAEFEA;
 }
-.text{
-    position: relative;
-    z-index: 2;
+
+.second {
+    color: #FAEFEA;
+}
+
+.third {
+    color: #cfb2a4;
+}
+
+.socmed {
+    background-color: #211a18;
+    border: 1px solid transparent;
+}
+
+.socmed:hover {
+    background-color: transparent;
+    border: 1px solid #3c302c;
+}
+
+.interest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    border-radius: 16px;
+    font-weight: 800;
+    border: 1px solid #3c302c;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.active {
+    background-color: #211a18 !important;
+}
+
+/* project */
+.project {
+    background-color: #211a18;
+    border: 1px solid #3c302c;
+}
+
+.proj-icon {
+    display: flex;
+    background-color: #16100d;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.project-list {
+    display: flex;
+    align-items: center;
+}
+
+.p-name {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.project-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #cfb2a4;
+    border: 1px solid #68544d;
+    padding: 14px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.project-btn:hover {
+    border: 1px solid #68544d;
+    background-color: #faefea1c;
+    color: #6d5851;
+}
+
+.forth {
+    color: #3c302c;
+    transition: .2s;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #835f21;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background: #4f4f4f;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
 }
