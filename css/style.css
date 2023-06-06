@@ -158,6 +158,14 @@ body {
     transition: .2s;
 }
 
+.tag {
+    border: 1px solid #68544d;
+    color: #a69c97;
+    margin: 4px 2px;
+    padding: 0px 10px;
+    border-radius: 8px;
+}
+
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
